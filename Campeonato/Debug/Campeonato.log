@@ -1,0 +1,22 @@
+﻿Build started 12/12/15 6:47:03 PM.
+     1>Project "c:\Users\Kevin\documents\visual studio 2013\Projects\Campeonato\Campeonato\Campeonato.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Campeonato.c
+         Campeonato.c
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(40): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(65): warning C4047: 'function' : 'Campeonatos *' differs in levels of indirection from 'Campeonato (*)[48]'
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(65): warning C4024: 'cargarInformacion' : different types for formal and actual parameter 2
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(76): warning C4047: 'function' : 'Campeonatos *' differs in levels of indirection from 'Campeonato (*)[48]'
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(76): warning C4024: 'guardaInformacionEquipo' : different types for formal and actual parameter 2
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(85): warning C4047: 'function' : 'Campeonatos *' differs in levels of indirection from 'Campeonato (*)[48]'
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(85): warning C4024: 'campeonatosJugados' : different types for formal and actual parameter 2
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(180): warning C4090: '=' : different 'const' qualifiers
+     1>c:\users\kevin\documents\visual studio 2013\projects\campeonato\campeonato\campeonato.c(233): warning C4172: returning address of local variable or temporary
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\kevin\documents\visual studio 2013\Projects\Campeonato\Debug\Campeonato.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\kevin\documents\visual studio 2013\Projects\Campeonato\Debug\Campeonato.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\kevin\documents\visual studio 2013\Projects\Campeonato\Debug\Campeonato.lib" /MACHINE:X86 Debug\Campeonato.obj
+         Campeonato.vcxproj -> c:\users\kevin\documents\visual studio 2013\Projects\Campeonato\Debug\Campeonato.exe
+     1>Done Building Project "c:\Users\Kevin\documents\visual studio 2013\Projects\Campeonato\Campeonato\Campeonato.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72
